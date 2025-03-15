@@ -4,17 +4,15 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
-    private Quaternion initialRotation; // Stores the initial rotation of the camera
-
-    void Start()
-    {
-        // Save the camera's initial rotation
-        initialRotation = transform.rotation;
-    }
+    public Transform player; // Assign the player's transform in the Inspector
+    public Vector3 offset = new Vector3(0f, 5f, -10f); // Offset to maintain distance
 
     void LateUpdate()
     {
-        // Keep the camera's rotation unchanged
-        transform.rotation = initialRotation;
+        if (player != null)
+        {
+            // Keep the camera at the player's position with the given offset
+            transform.position = player.position + offset;
+        }
     }
 }
