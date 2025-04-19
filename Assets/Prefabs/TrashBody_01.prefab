@@ -41,6 +41,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5972093215667022518}
     m_Modifications:
+    - target: {fileID: 1484186609836796690, guid: 023848c1cd1713c46b6095e50ae111cd,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 4040007431953281693, guid: 023848c1cd1713c46b6095e50ae111cd,
         type: 3}
       propertyPath: m_Name
@@ -203,7 +208,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3412014409618994343}
   serializedVersion: 4
-  m_Mass: 0.1
+  m_Mass: 0.04
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
