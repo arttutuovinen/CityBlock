@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: 097e2c6721e73094cbe6f0668ece8eec
+  m_OcclusionCullingData: {fileID: 36300000, guid: 1dd49319bd42f494fa7cf8317ad43f36,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -5509,6 +5510,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8440f48b52d93234ca6a9dc05c9bb251,
     type: 3}
   m_PrefabInstance: {fileID: 138192674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &138867953 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8485167277885985407, guid: 9c52488e800c5af49af4c18885c8abf8,
+    type: 3}
+  m_PrefabInstance: {fileID: 2080601915}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &140022547
 PrefabInstance:
@@ -63338,37 +63345,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1718100661}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1719001084
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1719001085}
-  m_Layer: 0
-  m_Name: Pivot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1719001085
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1719001084}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.5, y: 0.5, z: -1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 941456447}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1721521376 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 415d897c622f57c41831d97f846c20dc,
@@ -76997,7 +76973,7 @@ PrefabInstance:
         type: 3}
       propertyPath: pivot
       value: 
-      objectReference: {fileID: 1719001085}
+      objectReference: {fileID: 138867953}
     - target: {fileID: 7945233603979463770, guid: 9c52488e800c5af49af4c18885c8abf8,
         type: 3}
       propertyPath: m_Name
@@ -77053,13 +77029,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8485167277885985407, guid: 9c52488e800c5af49af4c18885c8abf8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 8153186968742349290, guid: 9c52488e800c5af49af4c18885c8abf8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1719001085}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c52488e800c5af49af4c18885c8abf8, type: 3}
 --- !u!1001 &2083113087
