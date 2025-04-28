@@ -51,6 +51,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: TrashLid_01
       objectReference: {fileID: 0}
+    - target: {fileID: 4620680847243439165, guid: 023848c1cd1713c46b6095e50ae111cd,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5991461409679875968, guid: 023848c1cd1713c46b6095e50ae111cd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -168,6 +173,11 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: f132e321712e794429679779585905f3,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: f132e321712e794429679779585905f3,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f132e321712e794429679779585905f3,
