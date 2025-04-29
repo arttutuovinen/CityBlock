@@ -78,6 +78,7 @@ namespace UniMeshCombiner
 
                 meshRenderer.material = kvp.Key;
                 var mesh = new Mesh();
+                mesh.indexFormat = UnityEngine.Rendering.IndexFormat.UInt32;
                 mesh.CombineMeshes(kvp.Value.ToArray());
                 Unwrapping.GenerateSecondaryUVSet(mesh);
 
