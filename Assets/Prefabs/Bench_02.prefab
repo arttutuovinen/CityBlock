@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8685967171680171593}
   m_Layer: 0
   m_Name: Bench_02
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 16
@@ -94,6 +94,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bench_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a03c74fbfb9ec21459b9b514303a1bb0,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a03c74fbfb9ec21459b9b514303a1bb0,
         type: 3}

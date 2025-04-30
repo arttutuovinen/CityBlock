@@ -35,7 +35,8 @@ public class Player : MonoBehaviour
         if (rb.velocity.magnitude > minSpeedForTurning)
         {
             float turnInput = Input.GetAxis("Horizontal");
-            float turnAmount = turnInput * steering * Time.deltaTime;
+            float directionMultiplier = Mathf.Sign(moveInput); // 1 if forward, -1 if reverse, 0 if idle
+            float turnAmount = turnInput * steering * Time.deltaTime * directionMultiplier;;
 
             // Rotate the car
             transform.Rotate(0, turnAmount, 0);

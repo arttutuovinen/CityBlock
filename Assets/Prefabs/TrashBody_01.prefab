@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5972093215667022518}
   m_Layer: 0
   m_Name: TrashBody_01
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,6 +50,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrashLid_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4040007431953281693, guid: 023848c1cd1713c46b6095e50ae111cd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     - target: {fileID: 4620680847243439165, guid: 023848c1cd1713c46b6095e50ae111cd,
         type: 3}
@@ -105,6 +110,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6565976471155428840, guid: 023848c1cd1713c46b6095e50ae111cd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -184,6 +194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrashBody_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f132e321712e794429679779585905f3,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

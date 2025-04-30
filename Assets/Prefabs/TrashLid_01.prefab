@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5991461409679875968}
   m_Layer: 0
   m_Name: TrashLid_01
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,6 +94,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: TrashLid_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0ea0baacb479fd7418fe11ebbe3a5590,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
