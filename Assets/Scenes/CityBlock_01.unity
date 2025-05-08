@@ -4447,6 +4447,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9701ba47f345d654ba12fd3df40cb737,
         type: 3}
       insertIndex: -1
+      addedObject: {fileID: 191331796}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9701ba47f345d654ba12fd3df40cb737,
+        type: 3}
+      insertIndex: -1
       addedObject: {fileID: 191331792}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9701ba47f345d654ba12fd3df40cb737,
         type: 3}
@@ -8810,6 +8814,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &191331796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 191331785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69be13d63e71baa47bbf042924d8d619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffectPrefab: {fileID: 9208766621188935341, guid: d94fb7472796fba4782de3d51b7616d8,
+    type: 3}
 --- !u!4 &193575823 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8440f48b52d93234ca6a9dc05c9bb251,
@@ -12635,7 +12653,7 @@ PrefabInstance:
     - target: {fileID: 5578009452238611163, guid: 2672a9becf8f4404183d70b3af356d53,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 7918775876577227699, guid: 2672a9becf8f4404183d70b3af356d53,
         type: 3}
